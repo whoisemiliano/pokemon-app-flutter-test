@@ -6,7 +6,7 @@ import 'package:pokeappen/pokemon.dart';
 import 'package:pokeappen/pokemondetail.dart';
 
 void main() => runApp(MaterialApp(
-      title: "Poke App",
+      title: "Pokedex",
       home: HomePage(),
       debugShowCheckedModeBanner: false,
     ));
@@ -43,7 +43,7 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Poke App"),
+        title: Text("Pokedex"),
         backgroundColor: Colors.cyan,
       ),
       body: pokeHub == null
